@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Which of the following is not a value of the font-variant property in CSS?",
+    "answers": {
+      "answer_1": "normal",
+      "answer_2": "small-caps",
+      "answer_3": "large-caps",
+      "answer_4": "inherit",
+      "correct_answer": "large-caps"
+    }
+  },
+  {
+    "question": "Which of the following CSS property is used to specify whether the table cells share the common or separate border?",
+    "answers": {
+      "answer_1": "border-collapse",
+      "answer_2": "border-radius",
+      "answer_3": "border-spacing",
+      "answer_4": "None of the above",
+      "correct_answer": "border-collapse"
+    }
+  },
+  {
+    "question": "The CSS property used to make the rounded borders, or rounded corners around an element is ....",
+    "answers": {
+      "answer_1": "border-collapse",
+      "answer_2": "border-spacing",
+      "answer_3": "border-radius",
+      "answer_4": "None of the above",
+      "correct_answer": "border-radius"
+    }
+  },
+  {
+    "question": "The CSS property which is used to define the set the difference between two lines of your content is ....",
+    "answers": {
+      "answer_1": "min-height",
+      "answer_2": "max-height",
+      "answer_3": "line-height",
+      "answer_4": "font-height",
+      "correct_answer": "line-height"
+    }
+  },
+  {
+    "question": "Which of the following CSS property is used to set the blend mode for each background layer of an element?",
+    "answers": {
+      "answer_1": "background-blend-mode",
+      "answer_2": "background-collapse",
+      "answer_3": "background-transform",
+      "answer_4": "background-origin",
+      "correct_answer": "background-blend-mode"
+    }
+  },
+  {
+    "question": "The correct syntax to give a line over text is :",
+    "answers": {
+      "answer_1": "text-decoration: line-through",
+      "answer_2": "text-decoration: overline",
+      "answer_3": "text-decoration: none",
+      "answer_4": "text-decoration: underline",
+      "correct_answer": "text-decoration: overline"
+    }
+  },
+  {
+    "question": "The CSS property used to specify the transparency of an element is :",
+    "answers": {
+      "answer_1": "Hover",
+      "answer_2": "overlay",
+      "answer_3": "clearfix",
+      "answer_4": "opacity",
+      "correct_answer": "opacity"
+    }
+  },
+  {
+    "question": "Which if the following CSS function allows us to perform calculations?",
+    "answers": {
+      "answer_1": "calc() function",
+      "answer_2": "calculator() function",
+      "answer_3": "calculate() function",
+      "answer_4": "cal() function",
+      "correct_answer": "calc() function"
+    }
+  },
+  {
+    "question": "Which type of CSS is used in the below code?\n <p style = \"border:2px solid red;\">  ",
+    "answers": {
+      "answer_1": "Inline CSS",
+      "answer_2": "Internal CSS",
+      "answer_3": "External CSS",
+      "answer_4": "None of the above",
+      "correct_answer": "Inline CSS"
+    }
+  },
+  {
+    "question": "Which of the following CSS property defines how an image or video fits into container with established height and width?",
+    "answers": {
+      "answer_1": "object-fit",
+      "answer_2": "object-position",
+      "answer_3": "position",
+      "answer_4": "None of the above",
+      "correct_answer": "object-fit"
+    }
+  },
+  {
+    "question": "Which of the following selector in CSS is used to select the elements that do not match the selectors?",
+    "answers": {
+      "answer_1": ":! selector",
+      "answer_2": ":not selector",
+      "answer_3": ":empty selector",
+      "answer_4": ":has selector",
+      "correct_answer": ":not selector"
+    }
+  }
+]
