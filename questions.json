@@ -80,7 +80,7 @@
     }
   },
   {
-    "question": "Which type of CSS is used in the below code?\n <p style = \"border:2px solid red;\">  ",
+    "question": "Which type of CSS is used in this code?   <p style = \"border:2px solid red;\">  ",
     "answers": {
       "answer_1": "Inline CSS",
       "answer_2": "Internal CSS",
