@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 html {
   height: 100%;
@@ -16,7 +17,7 @@ body {
 
 .container {
   width: 60%;
-  margin: 60px auto;
+  margin: 40px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -37,32 +38,32 @@ body {
 }
 .quiz-info .category span,
 .quiz-info .count span {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-left: 5px;
   font-weight: 600;
 }
 
-.quiz h2 {
+.quiz .question-area h2 {
   font-size: 20px;
   padding: 20px 20px 0;
 }
-.quiz .answers {
+.quiz .question-area .answers {
   padding: 20px;
 }
-.quiz .answers .answer {
+.quiz .question-area .answers .answer {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
   border: solid 1px #ccc;
 }
-.quiz .answers .answer input[type="radio"]:checked ~ label {
+.quiz .question-area .answers .answer input[type="radio"]:checked ~ label {
   color: #0075ff;
 }
-.quiz .answers .answer label {
+.quiz .question-area .answers .answer label {
   margin-left: 5px;
   color: #777;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
   position: relative;
   top: -2px;
 }
@@ -88,6 +89,7 @@ body {
 .quiz .tracker .dots {
   flex: 1;
   display: flex;
+  align-items: center;
 }
 .quiz .tracker .dots span {
   background-color: #777;
@@ -98,4 +100,76 @@ body {
 }
 .quiz .tracker .dots span.done {
   background-color: #0075ff;
+}
+
+.result {
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+.result span {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.result span.perfect {
+  color: #6a11cb;
+}
+.result span.good {
+  color: #1faf0c;
+}
+.result span.bad {
+  color: #d22533;
+}
+
+.result p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.result img {
+  margin: 10px 0;
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .quiz .question-area h2 {
+    font-size: 15px;
+  }
+  .quiz-info .category,
+  .quiz-info .count {
+    font-size: 12px;
+  }
+  .quiz-info .category span,
+  .quiz-info .count span {
+    margin: 0;
+  }
+  .quiz .question-area .answers {
+    padding: 10px;
+  }
+  .quiz .question-area .answers .answer {
+    padding: 10px;
+  }
+  .quiz .question-area .answers .answer label {
+    font-size: 14px;
+  }
+  .quiz .tracker {
+    flex-direction: column;
+    text-align: center;
+  }
+  .quiz .tracker .dots {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .result span {
+    font-size: 20px;
+  }
+  .result img {
+    width: 250px;
+  }
 }
